@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57349a3aeff70ac4bb5f8782ea8c14e0, type: 3}
+  m_Name: Animals Database
+  m_EditorClassIdentifier: 
+  animals:
+  - animalType: 0
+    prefab: {fileID: 4737785621782698405, guid: 24a2dd10823472a40aae5efb4632013f, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 1
+    prefab: {fileID: 5520100210345118153, guid: bd4ab47bd653fee4db9657eb378caca5, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 2
+    prefab: {fileID: 8857031710617625615, guid: 692295252dce03544ba80bc3cf6d7c50, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 3
+    prefab: {fileID: 5946093041150995841, guid: fa62efb3138173240b8cefae77fb1fab, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 4
+    prefab: {fileID: 8348152081832816726, guid: 60461c10b449fb54fadcd3df1b7de485, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 5
+    prefab: {fileID: 7443221692696793738, guid: 57e48e95fe1b9e84285be602ed64965b, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 6
+    prefab: {fileID: 3723217540529644781, guid: f189ed0d00cbd494e9c7ddb2adf40746, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 7
+    prefab: {fileID: 4940788795420556183, guid: a7f5f3d0368b3f84c8854fc9f09f48c6, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 8
+    prefab: {fileID: 6824056633908700397, guid: e1e2bfd57f1707645ba5065336a429a6, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 9
+    prefab: {fileID: 7329176190649520718, guid: 2499abf9b50c954419c4c124aa72a495, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 10
+    prefab: {fileID: 2921632596715241418, guid: af4ee10a2459b814f8dbb380928df496, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 11
+    prefab: {fileID: 6374167828971102623, guid: 4f7753554397fbc448fa3a09d20be6be, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 12
+    prefab: {fileID: 7999283186666863876, guid: 618097fcad822954785c671a481f9837, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 13
+    prefab: {fileID: 131059152406148289, guid: d8ba7aceb94c8ee4ca58d9cbe47c7eb1, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 14
+    prefab: {fileID: 6818502085380826763, guid: 84016d9a33e19b941b7214ca8d53bcef, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 15
+    prefab: {fileID: 7758317809029627007, guid: 2fb5419e4970686418e89e06d3281cb0, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 16
+    prefab: {fileID: 4954638617456723738, guid: 860d1bcca5eca1741b7fc8da24100295, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 17
+    prefab: {fileID: 3993067286372732579, guid: 9ac68f45f7d0bee4594daacbe25014d1, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 18
+    prefab: {fileID: 3777715602195645285, guid: 79057861ce8887e4e8d892eaa26b59e4, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 19
+    prefab: {fileID: 9064731538843642435, guid: 4f1d82ac48f4726439a21ad68f26ad9a, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 20
+    prefab: {fileID: 4472927393424335030, guid: bada0b42affa88a4c8d5236433eb380a, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 21
+    prefab: {fileID: 5173047168635268722, guid: a1891c1dea1be6a42abdaa15ce73f4da, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 22
+    prefab: {fileID: 4895193161130243653, guid: 929edb58286ea084287590f475908c53, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 23
+    prefab: {fileID: 6507445184325503110, guid: a7e1817d074b050448684bd8e3e72c02, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 24
+    prefab: {fileID: 2528692162385904100, guid: 162db7b659a2cdf459cbe13e4589c2de, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 25
+    prefab: {fileID: 4198991135806576282, guid: fdd1d9ec14ccc0e41b1b0b330adc7356, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 26
+    prefab: {fileID: 8272664431265725161, guid: 8ace3222e769b144e99c03a644f5f29c, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 27
+    prefab: {fileID: 3514435654731410941, guid: 4ed610c00f632f140abf3ac7ffd85061, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 28
+    prefab: {fileID: 3670762666316076035, guid: 6c2709d4c9445ca4081a0565926ddb03, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 29
+    prefab: {fileID: 8165097926443499411, guid: 69107a438736d4040bf3eb86daa30c55, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 30
+    prefab: {fileID: 3561350581630707167, guid: 6a2a8cbfe9b14c74ebb204d1761559d6, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 31
+    prefab: {fileID: 7585317116848996855, guid: cbeb00676c5c08440b1c48eee1349b2f, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 32
+    prefab: {fileID: 8649065362610742184, guid: 144f4ab9a64397e46b79fe0e612eed07, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 33
+    prefab: {fileID: 4031831532578442287, guid: 44c2bc8647f69174685bfa9b8521f141, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 34
+    prefab: {fileID: 8825746617866890627, guid: 5e94f6e15f29fd94f87353e31f3b116b, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 35
+    prefab: {fileID: 3819846016805660314, guid: ec4a64ad632733b41b3d6c4b48bf327d, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 36
+    prefab: {fileID: 193010703402815332, guid: d0c9a0bc0cee5ea43b6414ac328ec00d, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 37
+    prefab: {fileID: 2018532523597964422, guid: 949888b967ad8974c9382e9ea9a68e79, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 38
+    prefab: {fileID: 2150869245523146930, guid: 1f147fad0039a674393f0fc0c87f389d, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 39
+    prefab: {fileID: 5094026804301078351, guid: 5057207eb1c103747ab12022efc4e6a1, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 40
+    prefab: {fileID: 8215014215815540992, guid: 85bf5a3f3a2fc274f9325e471628aeb4, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 41
+    prefab: {fileID: 4207793767487354861, guid: 513cdb6d70b225243a41fb73fc19ce31, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 42
+    prefab: {fileID: 8104898957821182611, guid: f27087427c21c9949848302cdb8dfe00, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 43
+    prefab: {fileID: 1175442342730700310, guid: 0958af15caaa12d4c9f2f43bad7d6031, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 44
+    prefab: {fileID: 2696249028840917973, guid: 6288eba8bd18cf548ae2d533ff2d7fbc, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 45
+    prefab: {fileID: 724267658164448717, guid: e7af32223aa67b349b9ec21950ee1afb, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 46
+    prefab: {fileID: 1995038182068248301, guid: c5f1ce33b453af442b91f5f8a07a39c6, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 47
+    prefab: {fileID: 7766431861491658827, guid: b1669b0560257d44e9a2cb61309d0b3a, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 48
+    prefab: {fileID: 412446910757001377, guid: f10f1b43c8ac5184ba5ee1a0c6da4a76, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 49
+    prefab: {fileID: 5417357341081159717, guid: 28ee8bae1dcaca244a6b764ca08b7ac8, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 50
+    prefab: {fileID: 7817967739374593446, guid: fc1c962119632db4a8f20f71a2b50ff4, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 51
+    prefab: {fileID: 727975424453063819, guid: 942e42c03dcbaf6438322a840801dfe8, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 52
+    prefab: {fileID: 1245874652265088591, guid: e22ddcbefe5ccf8418099630f0979239, type: 3}
+    carryingHeight: 0
+    rewardType: 0
+    rewardAmount: 20
+  - animalType: 53
+    prefab: {fileID: 3453586177443286565, guid: 57ea235badf1cc84b8a381b5bb169b54, type: 3}
+    carryingHeight: 1.2
+    rewardType: 0
+    rewardAmount: 20
+  visitorPrefabs:
+  - {fileID: 5262757210971853380, guid: c0da9eb5f50c4b648b08ada6f3895276, type: 3}
+  - {fileID: 6599970125574089784, guid: 4bb82ec4203133946b589c3020a83d53, type: 3}
+  - {fileID: 4685316883534936984, guid: 2a83a0f57066c3b4aaf64c70c8eef0fc, type: 3}
+  - {fileID: 2825645934942483270, guid: e37b70e4ef15ea944afd5b5c0005bae3, type: 3}
+  - {fileID: 8558242874603360054, guid: c97b74cb85571884eae8889265ac9a6e, type: 3}
+  - {fileID: 328638200191334343, guid: 15caede2f71f70e48bf40b01541fe680, type: 3}
+  - {fileID: 1301995182150860160, guid: acd06c6c6a3956347a6e44f89d23203e, type: 3}
+  - {fileID: 2028137394414878629, guid: 8312e10469d5b284d914ddf2e5c696be, type: 3}

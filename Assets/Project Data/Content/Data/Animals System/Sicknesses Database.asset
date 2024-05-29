@@ -1,0 +1,356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d0999a6244f8346a3078363e371f3c, type: 3}
+  m_Name: Sicknesses Database
+  m_EditorClassIdentifier: 
+  sicknesses:
+  - sicknessType: 0
+    requiredItem: 0
+    sicknessBehavioursOverride:
+    - animalType: 6
+      sicknessBehaviours:
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+      - {fileID: 6256590415364562671, guid: e42212d28638df94f8b659f5273072f2, type: 3}
+    - animalType: 7
+      sicknessBehaviours:
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+      - {fileID: 6256590415364562671, guid: e42212d28638df94f8b659f5273072f2, type: 3}
+    - animalType: 8
+      sicknessBehaviours:
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+      - {fileID: 6256590415364562671, guid: e42212d28638df94f8b659f5273072f2, type: 3}
+    - animalType: 9
+      sicknessBehaviours:
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+      - {fileID: 6256590415364562671, guid: e42212d28638df94f8b659f5273072f2, type: 3}
+    - animalType: 10
+      sicknessBehaviours:
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+      - {fileID: 6256590415364562671, guid: e42212d28638df94f8b659f5273072f2, type: 3}
+    - animalType: 0
+      sicknessBehaviours:
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+      - {fileID: 6256590415364562671, guid: e42212d28638df94f8b659f5273072f2, type: 3}
+    - animalType: 53
+      sicknessBehaviours:
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+      - {fileID: 6256590415364562671, guid: e42212d28638df94f8b659f5273072f2, type: 3}
+    - animalType: 51
+      sicknessBehaviours:
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+      - {fileID: 6256590415364562671, guid: e42212d28638df94f8b659f5273072f2, type: 3}
+    - animalType: 52
+      sicknessBehaviours:
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+      - {fileID: 6256590415364562671, guid: e42212d28638df94f8b659f5273072f2, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: ea184b6aba6adea45924a56906df2122, type: 3}
+  - sicknessType: 1
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 0
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    - animalType: 6
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    - animalType: 7
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    - animalType: 8
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    - animalType: 9
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    - animalType: 10
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    - animalType: 53
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    - animalType: 52
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    - animalType: 51
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    - animalType: 1
+      sicknessBehaviours:
+      - {fileID: 6658471602832165066, guid: 102bd4d0a5db15f4b8f2ae27b1735e78, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 2547eec59e87f6c4dbd9b2f264c0a7f2, type: 3}
+  - sicknessType: 2
+    requiredItem: 2
+    sicknessBehavioursOverride:
+    - animalType: 6
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+    - animalType: 7
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+    - animalType: 8
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+    - animalType: 9
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+    - animalType: 10
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 4d44da1ac4e51e74e8804820fd1d0fb9, type: 3}
+  - sicknessType: 3
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 0
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    - animalType: 6
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    - animalType: 7
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    - animalType: 8
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    - animalType: 9
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    - animalType: 10
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    - animalType: 51
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    - animalType: 52
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    - animalType: 53
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    - animalType: 5
+      sicknessBehaviours:
+      - {fileID: 4410882368384177308, guid: 50fffc867c167fd40be6bc848ace4257, type: 3}
+      - {fileID: 4557377956593603474, guid: 4027b6e5e61c2bd49a4e2ec95cfccdc0, type: 3}
+      - {fileID: 7128796251658035187, guid: 66c458beff9b2d7438e9309efdf6c274, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 5
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 11
+      sicknessBehaviours:
+      - {fileID: -2955457419633208482, guid: 365adda22c34cb446be4440466a27208, type: 3}
+    - animalType: 12
+      sicknessBehaviours:
+      - {fileID: -2955457419633208482, guid: 365adda22c34cb446be4440466a27208, type: 3}
+    - animalType: 13
+      sicknessBehaviours:
+      - {fileID: -2955457419633208482, guid: 365adda22c34cb446be4440466a27208, type: 3}
+    - animalType: 14
+      sicknessBehaviours:
+      - {fileID: -2955457419633208482, guid: 365adda22c34cb446be4440466a27208, type: 3}
+    - animalType: 15
+      sicknessBehaviours:
+      - {fileID: -2955457419633208482, guid: 365adda22c34cb446be4440466a27208, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 6
+    requiredItem: 12
+    sicknessBehavioursOverride:
+    - animalType: 26
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 27
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 28
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 29
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 30
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 7
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 46
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 47
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 48
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 49
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 50
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 8
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 21
+      sicknessBehaviours:
+      - {fileID: 6434656836662999321, guid: 3010daefae806804eb15880dcd757afd, type: 3}
+    - animalType: 22
+      sicknessBehaviours:
+      - {fileID: 6434656836662999321, guid: 3010daefae806804eb15880dcd757afd, type: 3}
+    - animalType: 23
+      sicknessBehaviours:
+      - {fileID: 6434656836662999321, guid: 3010daefae806804eb15880dcd757afd, type: 3}
+    - animalType: 24
+      sicknessBehaviours:
+      - {fileID: 6434656836662999321, guid: 3010daefae806804eb15880dcd757afd, type: 3}
+    - animalType: 25
+      sicknessBehaviours:
+      - {fileID: 6434656836662999321, guid: 3010daefae806804eb15880dcd757afd, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 4
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 1
+      sicknessBehaviours:
+      - {fileID: 2168643273258422105, guid: 838f610ce37dcd847b9a2a12afab3d1c, type: 3}
+    - animalType: 2
+      sicknessBehaviours:
+      - {fileID: 2168643273258422105, guid: 838f610ce37dcd847b9a2a12afab3d1c, type: 3}
+    - animalType: 3
+      sicknessBehaviours:
+      - {fileID: 2168643273258422105, guid: 838f610ce37dcd847b9a2a12afab3d1c, type: 3}
+    - animalType: 4
+      sicknessBehaviours:
+      - {fileID: 2168643273258422105, guid: 838f610ce37dcd847b9a2a12afab3d1c, type: 3}
+    - animalType: 5
+      sicknessBehaviours:
+      - {fileID: 2168643273258422105, guid: 838f610ce37dcd847b9a2a12afab3d1c, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 12
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 51
+      sicknessBehaviours:
+      - {fileID: 7698632693672675789, guid: 9fe04289fe0852540a38bc7a879e235c, type: 3}
+    - animalType: 52
+      sicknessBehaviours:
+      - {fileID: 7698632693672675789, guid: 9fe04289fe0852540a38bc7a879e235c, type: 3}
+    - animalType: 53
+      sicknessBehaviours:
+      - {fileID: 7698632693672675789, guid: 9fe04289fe0852540a38bc7a879e235c, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 9
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 16
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 17
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 18
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 19
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 20
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 10
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 41
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 42
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 43
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 44
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 45
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 11
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 36
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 37
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 38
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 40
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 39
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
+  - sicknessType: 13
+    requiredItem: 1
+    sicknessBehavioursOverride:
+    - animalType: 31
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 32
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 33
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 34
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    - animalType: 35
+      sicknessBehaviours:
+      - {fileID: 3147210879932583800, guid: d4809801ff6f18944b298fc84b2ba90e, type: 3}
+    sicknessParticleObject: {fileID: 4640623459240687399, guid: 59bd9468367cc804b832ef37c0658779, type: 3}
