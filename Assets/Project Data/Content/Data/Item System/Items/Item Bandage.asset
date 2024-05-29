@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecbb017772b81304e902a2eb15ef18cd, type: 3}
+  m_Name: Item Bandage
+  m_EditorClassIdentifier: 
+  itemType: 3
+  icon: {fileID: 21300000, guid: fce3a489f65668a4fb4ed565a5992a04, type: 3}
+  model: {fileID: 7852373024875063211, guid: 9606396a27b578a42b96da1fa51813ba, type: 3}
+  modelHeight: 0.44
