@@ -46,7 +46,7 @@ public class Close_Button : MonoBehaviour
     {
         Application.Quit();
     }
-    void No()
+   public void No()
     {
         areYouSure.SetActive(false);
         yesOpened = false;
@@ -81,5 +81,9 @@ public class Close_Button : MonoBehaviour
             OnPressCloseButton();
         }
 
+    }
+   void GoToPrivacy()
+    {
+        Application.OpenURL("");
     }
 }

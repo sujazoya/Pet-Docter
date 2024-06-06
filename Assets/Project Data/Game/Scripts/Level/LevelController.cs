@@ -225,16 +225,20 @@ namespace Watermelon
 
             levelController.LoadLevel(index);
         }
-
+        [SerializeField] GameObject level;
         private void LoadLevel(int levelID)
         {
+            
+
             loadedLevelIndex = levelID;
 
             levelSaveData = SaveController.GetSaveObject<LevelSave>(string.Format("level_{0}", levelID));
 
             NavMeshController.Initialise(levelController.navMeshSurface);
+            if (level) { level.SetActive(true); }
+           // var parameters = new LoadSceneParameters(LoadSceneMode.Additive);
 
-            SceneManager.LoadScene(levelsDatabase.GetLevelByIndex(levelID).LevelName, LoadSceneMode.Additive);
+           // SceneManager.LoadScene(levelsDatabase.GetLevelByIndex(levelID).LevelName, parameters);
         }
 
         public static void OnLevelCreated(Level level)
